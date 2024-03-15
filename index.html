@@ -28,7 +28,7 @@
 				<a href="#two" class="more">Learn More</a>
 			</section><!-- Two --><section id="two" class="wrapper post bg-img" data-bg="banner5.jpg"><div class="inner">
 					<article class="box"><header><h2>Currently</h2>
-							<p>Date().toLocaleString()</p>
+							<p id = "current_date" ></pid></p>
 						</header><div class="content">
 							<p>Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
 						</div>
@@ -79,3 +79,14 @@
 		</div>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script><script src="assets/js/jquery.scrolly.min.js"></script><script src="assets/js/jquery.scrollex.min.js"></script><script src="assets/js/skel.min.js"></script><script src="assets/js/util.js"></script><script src="assets/js/main.js"></script></body></html>
+			<script>
+				var currentDateElement = document.getElementById('current_date');
+				var currentDate = new Date();
+				var formattedDate = currentDate.toLocaleDateString('en-US', { 
+				  weekday: 'long', 
+				  year: 'numeric', 
+				  month: 'long', 
+				  day: 'numeric' 
+				});
+				currentDateElement.textContent = formattedDate;
+			  </script>
