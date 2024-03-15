@@ -1788,7 +1788,7 @@
 	}
 
 	a {
-		color: #F64747;
+		color: #69a9e4;
 	}
 
 	strong, b {
@@ -2030,7 +2030,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #F64747;
+			background-color: #69a9e4;
 			color: #ffffff !important;
 		}
 
@@ -2039,7 +2039,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #f75f5f;
+				background-color: #69a9e4;
 			}
 
 			input[type="submit"].special:active,
@@ -2047,7 +2047,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #f52f2f;
+				background-color: #69a9e4;
 			}
 
 /* Flex */
@@ -2416,8 +2416,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #F64747;
-			box-shadow: 0 0 0 1px #F64747;
+			border-color: #69a9e4;
+			box-shadow: 0 0 0 1px #69a9e4;
 		}
 
 	.select-wrapper:before {
