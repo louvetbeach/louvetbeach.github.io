@@ -4326,7 +4326,7 @@
 		#footer input[type="radio"]:checked + label:before {
 			background-color: #ffffff;
 			border-color: #ffffff;
-			color: #F64747;
+			color: #69a9e4;
 		}
 
 		#footer input[type="checkbox"]:focus + label:before,
